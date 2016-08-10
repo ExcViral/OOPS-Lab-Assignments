@@ -1,0 +1,22 @@
+1. Install
+
+- JDK 1.8.0
+- Gradle build framework
+
+2. Work on Assignment1.java file based on the instructions inside
+
+
+3. Short hand commands with gradle
+
+to build with gradle
+
+> gradle build --info
+
+to test
+
+> gradle test
+
+to clean
+
+> gradle clean
+
