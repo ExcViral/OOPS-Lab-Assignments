@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Assignment1Test" tests="10" skipped="0" failures="2" errors="0" timestamp="2016-08-10T15:22:51" hostname="ViralisticLabs" time="0.015">
+<testsuite name="Assignment1Test" tests="10" skipped="0" failures="2" errors="0" timestamp="2016-08-17T03:56:29" hostname="ViralisticLabs" time="0.008">
   <properties/>
-  <testcase name="testDivide" classname="Assignment1Test" time="0.0">
+  <testcase name="testDivide" classname="Assignment1Test" time="0.004">
     <failure message="java.lang.AssertionError: Use assertEquals(expected, actual, delta) to compare floating-point numbers" type="java.lang.AssertionError">java.lang.AssertionError: Use assertEquals(expected, actual, delta) to compare floating-point numbers
 	at org.junit.Assert.fail(Assert.java:93)
 	at org.junit.Assert.assertEquals(Assert.java:493)
@@ -52,10 +52,7 @@
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="testFactorial" classname="Assignment1Test" time="0.0"/>
-  <testcase name="testSwap" classname="Assignment1Test" time="0.0"/>
-  <testcase name="testHCF" classname="Assignment1Test" time="0.0"/>
-  <testcase name="testModullo" classname="Assignment1Test" time="0.015">
+  <testcase name="testModullo" classname="Assignment1Test" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;-1.0&gt; but was:&lt;-13.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;-1.0&gt; but was:&lt;-13.0&gt;
 	at org.junit.Assert.fail(Assert.java:93)
 	at org.junit.Assert.failNotEquals(Assert.java:647)
@@ -107,11 +104,14 @@
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="testLCM" classname="Assignment1Test" time="0.0"/>
+  <testcase name="testHCF" classname="Assignment1Test" time="0.0"/>
   <testcase name="testAdd" classname="Assignment1Test" time="0.0"/>
-  <testcase name="testFibonacci" classname="Assignment1Test" time="0.0"/>
+  <testcase name="testFactorial" classname="Assignment1Test" time="0.0"/>
+  <testcase name="testFibonacci" classname="Assignment1Test" time="0.004"/>
+  <testcase name="testLCM" classname="Assignment1Test" time="0.0"/>
+  <testcase name="testSwap" classname="Assignment1Test" time="0.0"/>
   <testcase name="testLargeFibonacci" classname="Assignment1Test" time="0.0"/>
   <testcase name="testFactorialOverFlow" classname="Assignment1Test" time="0.0"/>
-  <system-out><![CDATA[a = 5b = 2a = 2b = -3a = 0b = 13]]></system-out>
+  <system-out><![CDATA[a = 0b = 13a = 5b = 2a = 2b = -3]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -17,8 +17,10 @@ public class Assignment1 {
   }
    /*divide two number*/
   public static double divide(double a, double b) { //replaced int by double
-
-	  return (double)a / (double)b; // added a new return statement
+		if (b == 0)
+			return -1;
+		else
+			return (double)a / (double)b; // added a new return statement
   }
     /*read integer input from user*/
   public static int input_int(){
