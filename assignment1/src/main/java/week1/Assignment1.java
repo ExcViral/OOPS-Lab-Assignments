@@ -1,4 +1,4 @@
-
+package week1;
 
 import java.util.*;
 import java.math.BigDecimal;
@@ -12,11 +12,12 @@ import java.math.BigDecimal;
 public class Assignment1 {
 	/** Adds two integers.
    */
-  public static int add(int a, int b) { // replaced void by int
-    return a+b; // added a+b instead of 0
+  public static double add(double a, double b) { // replaced void by int
+    return (double)(a)+(double)(b); // added a+b instead of 0
   }
    /*divide two number*/
   public static double divide(double a, double b) { //replaced int by double
+
 	  return (double)a / (double)b; // added a new return statement
   }
     /*read integer input from user*/
@@ -29,17 +30,17 @@ public class Assignment1 {
 	//made whole new addition above here
   }
     /*print values of a and b after swaping without using third variable and also return (a-b) after swaping.*/
-  public static int swap(){
-    int a =input_int();// replaced string to int
-    int b = input_int();//replaced string to int
+  public static int swap(int a, int b){
+    //int a = input_int();// replaced string to int
+    //int b = input_int();//replaced string to int
 	//logic below from here
 		a=a+b;
 		b=a-b;
 		a=a-b;
 	//logic above from here
-    System.out.println("a = "+a); //changed here
-    System.out.println("b = "+b); //changed here
-    return (a-b); //changed return statement
+    System.out.printf("a = %d",a); //changed here
+    System.out.printf("b = %d",b); //changed here
+    return (int)(a-b); //changed return statement
   }
       /*return the modullo of two numbers*/
   public static float modullo(float a,float b){ // changed void to float
@@ -113,10 +114,6 @@ public class Assignment1 {
   
   //addition of main function
   
-  public static void main(String[] args){
-	 
-	  System.out.println(divide(5,3));
-  }
   
 
 }
