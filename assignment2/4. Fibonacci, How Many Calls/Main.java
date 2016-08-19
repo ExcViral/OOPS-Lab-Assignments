@@ -20,14 +20,18 @@ public class Main {
 		 
 		 Scanner inp = new Scanner(System.in);
 		 int testCases = inp.nextInt();
-		 
+		 int[] numbers = new int[testCases];
+		 for(int i = 0; i < testCases; i++){
+		 	numbers[i] = inp.nextInt();
+		 }
 
 		 int fib = 0;
 		 
-		 //for(int i = 0; i < integers.length; i++){
-			 fib = fibo(testCases);
-			 System.out.println("fib("+calls+") = "+fib+" calls = "+testCases);
-		 //}
+		 for(int j = 0; j < testCases; j++){
+			 fib = fibo(numbers[j]);
+			 System.out.println("fib("+numbers[j]+") = "+calls+" calls = "+fib);
+			 calls = -1;
+		 }
  
     }
 	
